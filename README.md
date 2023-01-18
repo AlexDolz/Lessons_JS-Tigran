@@ -1,0 +1,8 @@
+# TelRan School
+
+# JS Lessons
+
+- [Lesson-1_11_01](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_1_11_01_find_findIndex_%20some_every_callback)
+- [Lesson-2_13_01](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_2_13_01_Concat_repeat_includes_startsWith_endsWith_indexOf_replace_slice)
+- [Lesson-3_16_01](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_3_16_01_slice_indexOf_includes)
+- [Lesson-4_18_01](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_4_18_01_while_continue_break_split_join_regular%20expressions)
