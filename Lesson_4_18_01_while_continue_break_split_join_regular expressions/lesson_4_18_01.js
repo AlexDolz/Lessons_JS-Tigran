@@ -123,7 +123,7 @@
 // let result = string.match(reg);
 // console.log(result);
 
-// \s - tolko probel
+// \s -  probel ili tabuliacija
 // let string = 'hello wor9ld';
 
 // let reg = /\s/; // '
@@ -138,6 +138,16 @@
 // let reg = /\D/; // h
 // let result = string.match(reg);
 // console.log(result);
+
+// /\d{4, 5}/  ili 4 ili 5 cifr, bolseje znacenije imeejt privilegiju, najdiot 5
+// /\d{4, 6}/  ili 4 ili 5  ili 6 cifr, bolseje znacenije imeejt privilegiju, najdiot 6 esli jest
+// {n, } - n ili mnogo
+// + - zamena {1, } (odin ili mnogo)
+// * - zamena {0, } (0 ili mnogo)
+// ? - zamena {0,1} (0 ili 1)
+// /g - Флаг g означает, что поиск будет идти по всей строке и вернёт все вхождения (в отличии от метода indexOf)
+// ?: -  говорит о том, что мы хотим исключить из выдачи какую-то группу символов (но при этом искать по ней всё равно будем)
+// [^@] -  означает, что нас устроит любой символ, кроме “@”. В целом это работает примерно как логическое  “не” для набора символов.
 
 // -------------- Polzovatelskij nabor simvolov
 
