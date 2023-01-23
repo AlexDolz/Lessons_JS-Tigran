@@ -7,3 +7,4 @@
 - [Lesson-3_16_01](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_3_16_01_slice_indexOf_includes)
 - [Lesson-4_18_01](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_4_18_01_while_continue_break_split_join_regular%20expressions)
 - [Lesson-5_20_01](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_5_20_01_regularExpr_date)
+- [Lesson-6_23_01](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson-6_23_01_objects_objects_methods_Object.values_Object.keys_Object.entries_Object.assign)
