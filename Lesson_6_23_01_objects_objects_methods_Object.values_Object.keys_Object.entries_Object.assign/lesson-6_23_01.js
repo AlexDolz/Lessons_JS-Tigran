@@ -207,7 +207,7 @@
 // console.log(Object.entries(obj)); // [ [ 'name', 'Alex' ], [ 'age', 30 ], [ 'salary', 2000 ] ]
 
 // -----------------------------------------
-// Object.assign() - metod klassa Object, pozvoliajusij iz 2 objektov sdelat 1 objekt, mutirujet 1 objekt, ne sozdavaja novij
+// Object.assign() - metod klassa Object, pozvoliajusij iz 2 i boleje objektov sdelat 1 objekt, mutirujet 1 objekt, ne sozdavaja novij
 
 // let user = {
 //   name: 'Alex',
