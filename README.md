@@ -11,3 +11,4 @@
 - [Lesson-7_25_01](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_7_25_01_objects_destrukturization_rest_spread_splice)
 - [Lesson-8_27_01](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_8_27_01_templating_classes)
 - [Lesson-9_30_01](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_9_30_01_classes_getter_setter_private%20property)
+- [Lesson-10_01_02](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_9_30_01_classes_getter_setter_private%20property)
