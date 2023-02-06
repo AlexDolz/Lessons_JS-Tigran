@@ -91,7 +91,7 @@ fetch(url)
   .then(data => console.log(data));
 
 // POST
-// let url = 'http://51/250.8.198:8000/api/create';
+// let url = 'http://51.250.8.198:8000/api/create/';
 
 // let data = {
 //   title: 'telran',
