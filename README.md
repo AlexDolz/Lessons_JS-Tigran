@@ -13,3 +13,4 @@
 - [Lesson-9_30_01](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_9_30_01_classes_getter_setter_private%20property)
 - [Lesson-10_01_02](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_9_30_01_classes_getter_setter_private%20property)
 - [Lesson-11_03_02](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_11_03_02_promise_catch_finally_fetch_async%2Cawait_GET_POST)
+- [Lesson-12_06_02](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_12_06_02_get_delete_put_post_obrabotcik_osibok)
