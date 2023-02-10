@@ -26,7 +26,7 @@ const getUserById = id => {
   let urlPost = `https://jsonplaceholder.typicode.com/posts?userId=${id}`;
   fetch(urlUser)
     .then(res =>
-      res.status == 404 ? console.log('Такого пользователя нет') : res.json()
+      res.status == 404 ? getErrorMessage('User is not found') : res.json()
     )
     .then(data => {
       if (data) {
@@ -44,9 +44,8 @@ const getUserById = id => {
     });
 };
 
-getUserById(5);
-getUserById(10);
-getUserById(1);
+// getUserById(5);
+// getUserById(10);
 
 // 2 Solution async await
 
@@ -94,13 +93,16 @@ getUserById(1);
 //  </div>
 // </div>
 
-function render(obj) {
-  const rootDiv = document.querySelector('#root');
+const rootDiv = document.querySelector('#root');
 
-  // making container
-  const containerDiv = document.createElement('div');
-  containerDiv.classList.add('user-container');
-  rootDiv.append(containerDiv);
+// making container
+const containerDiv = document.createElement('div');
+containerDiv.classList.add('user-container');
+rootDiv.append(containerDiv);
+
+function render(obj) {
+  // updated userCntainer(div) deleted previous information
+  containerDiv.innerHTML = '';
 
   // making div with user
   const userDiv = document.createElement('div');
@@ -134,3 +136,53 @@ function render(obj) {
     itemDiv.append(h3ElemTitle, pElemText);
   });
 }
+
+// *************************** Task 4 *******************************
+// Задание: Напишите фунцию getErrorMessage(), которая построит внутри container_div элемент с текстовым значеием ошибки
+// 'Пользователь не найден.'
+// Можно использовать класс user
+
+function getErrorMessage(text) {
+  // updated userCntainer(div) deleted previous information
+  containerDiv.innerHTML = '';
+  // making div with user
+  const userDiv = document.createElement('div');
+  userDiv.classList.add('user');
+  containerDiv.append(userDiv);
+
+  userDiv.style.backgroundColor = 'rgb(248, 82, 82)';
+
+  // text with error
+  const messageText = document.createElement('p');
+  messageText.innerText = text;
+
+  messageText.classList.add('message_text');
+  userDiv.append(messageText);
+}
+
+// **************************** Task 5 ******************************
+// Написать функционал, который позволит по кнопкам (<- и ->)
+// инкрементероивать и декрементировать аргумент функции getUserById
+
+// Функцию getUserById так же необходимо адаптировать под этот функционал
+
+// Доп-задание:
+// Между кнопками отобразите информацию текущего пользователя (его id)
+let queue = 1;
+
+let [buttonDecr, buttonIncr] = document.querySelectorAll('button');
+
+function handle(type) {
+  if (type == 'decr') {
+    getUserById(--queue);
+  } else if (type == 'incr') {
+    getUserById(++queue);
+  }
+  let spanElem = document.querySelector('span');
+  spanElem.innerText = queue;
+}
+
+buttonDecr.addEventListener('click', () => handle('decr'));
+buttonIncr.addEventListener('click', () => handle('incr'));
+
+getUserById(queue);
