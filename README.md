@@ -15,3 +15,4 @@
 - [Lesson-11_03_02_promise_catch_finally_fetch_async_await_GET_POST](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_11_03_02_promise_catch_finally_fetch_async%2Cawait_GET_POST)
 - [Lesson-12_06_02_GET_DELETE_PUT_POST_errorHandler](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_12_06_02_get_delete_put_post_obrabotcik_osibok)
 - [Lesson-12_06_02_fetch_functional_practice](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Fetch_functional_practice)
+- [Lesson-13_13_02_fetch_functional_practice](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/DOM_creating_deleting_moving)
