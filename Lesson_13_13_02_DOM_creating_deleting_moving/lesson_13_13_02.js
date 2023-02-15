@@ -93,13 +93,16 @@
 
 // ************************ Task 2 ************************************
 // задание 1
-// Сформировать содержимое li элемента в полужирный шрифт
+// Сформировать содержимое li(3) элемента в полужирный шрифт
 
-let elem = document.body.firstElementChild.firstElementChild.lastElementChild;
-console.log((elem.style.fontWeight = 'bold'));
+let liElem =
+  document.body.firstElementChild.firstElementChild.lastElementChild
+    .previousElementSibling;
+console.log((liElem.innerHTML = `<b>${liElem.innerText}</b>`));
 
 // задание 2
 // Заменить содержимое заголовка h2 на обычный текст
 
-let elem2 = document.body.firstElementChild.nextElementSibling;
+let elem2 =
+  document.body.firstElementChild.nextElementSibling.firstElementChild;
 console.log((elem2.innerHTML = '<p>Post</p>'));
