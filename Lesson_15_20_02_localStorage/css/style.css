@@ -1,0 +1,39 @@
+.form_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#form_elem {
+  display: flex;
+  align-items: center;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.users_container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  gap: 60px;
+}
+
+.user_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid aquamarine;
+  border-radius: 5px;
+}
+
+.reset_btn {
+  width: 200px;
+  height: 50px;
+  margin: 0 0 5% 41%;
+  cursor: pointer;
+}
