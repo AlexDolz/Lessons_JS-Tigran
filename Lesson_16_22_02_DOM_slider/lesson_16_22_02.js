@@ -42,9 +42,6 @@ function goRight() {
     sliderIndex++;
     cards.style.left = `${-1 * sliderIndex * 500}px`;
   }
-  if (sliderIndex >= images.length - 1) {
-    sliderIndex = -1;
-  }
 }
 function goLeft() {
   if (sliderIndex != 0) {
