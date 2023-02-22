@@ -18,3 +18,4 @@
 - [Lesson-13_13_02_DOM_creating_deleting_moving](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_13_13_02_DOM_creating_deleting_moving)
 - [Lesson-14_15_02_events_event_target](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_14_15_02_events_event_target)
 - [Lesson-15_20_02_localStorage](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_15_20_02_localStorage)
+- [Lesson-16_22_02_DOM_slider](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_16_22_02_DOM_slider)
