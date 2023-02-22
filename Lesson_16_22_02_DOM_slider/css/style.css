@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: auto 0;
+}
+
 .frame {
   position: relative;
   width: 500px;
@@ -34,6 +43,7 @@
 }
 
 .trigger button {
+  cursor: pointer;
   width: 70px;
   font-size: 40px;
   background-color: rgba(128, 128, 128, 0.447);

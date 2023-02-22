@@ -42,6 +42,9 @@ function goRight() {
     sliderIndex++;
     cards.style.left = `${-1 * sliderIndex * 500}px`;
   }
+  if (sliderIndex >= images.length - 1) {
+    sliderIndex = -1;
+  }
 }
 function goLeft() {
   if (sliderIndex != 0) {
@@ -52,5 +55,3 @@ function goLeft() {
 
 rightBtn.addEventListener('click', goRight);
 leftBtn.addEventListener('click', goLeft);
-
-// FIXME sdelat ctob pereskakivalo s konca kartinok v nacalo
