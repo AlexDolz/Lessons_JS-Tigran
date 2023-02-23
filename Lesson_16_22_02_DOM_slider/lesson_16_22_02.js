@@ -40,14 +40,18 @@ rootDiv.append(frame);
 function goRight() {
   if (sliderIndex < images.length - 1) {
     sliderIndex++;
-    cards.style.left = `${-1 * sliderIndex * 500}px`;
+  } else {
+    sliderIndex = 0;
   }
+  cards.style.left = `${-1 * sliderIndex * 500}px`;
 }
 function goLeft() {
   if (sliderIndex != 0) {
     sliderIndex--;
-    cards.style.left = `${-1 * sliderIndex * 500}px`;
+  } else {
+    sliderIndex = images.length - 1;
   }
+  cards.style.left = `${-1 * sliderIndex * 500}px`;
 }
 
 rightBtn.addEventListener('click', goRight);
