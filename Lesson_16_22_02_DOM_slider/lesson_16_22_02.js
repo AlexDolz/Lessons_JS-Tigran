@@ -44,7 +44,7 @@ function goRight() {
   } else {
     sliderIndex = 0;
     if (sliderIndex == 0) {
-      cards.style.transition = '0s';
+      cards.style.transition = '0.02s';
     } else {
       cards.style.transition = '0.5s';
     }
@@ -58,7 +58,7 @@ function goLeft() {
   } else {
     sliderIndex = images.length - 1;
     if (sliderIndex == images.length - 1) {
-      cards.style.transition = '0s';
+      cards.style.transition = '0.02s';
     } else {
       cards.style.transition = '0.5s';
     }
