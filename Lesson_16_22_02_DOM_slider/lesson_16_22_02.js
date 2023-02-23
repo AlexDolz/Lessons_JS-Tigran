@@ -40,16 +40,28 @@ rootDiv.append(frame);
 function goRight() {
   if (sliderIndex < images.length - 1) {
     sliderIndex++;
+    cards.style.transition = '0.5s';
   } else {
     sliderIndex = 0;
+    if (sliderIndex == 0) {
+      cards.style.transition = '0s';
+    } else {
+      cards.style.transition = '0.5s';
+    }
   }
   cards.style.left = `${-1 * sliderIndex * 500}px`;
 }
 function goLeft() {
   if (sliderIndex != 0) {
     sliderIndex--;
+    cards.style.transition = '0.5s';
   } else {
     sliderIndex = images.length - 1;
+    if (sliderIndex == images.length - 1) {
+      cards.style.transition = '0s';
+    } else {
+      cards.style.transition = '0.5s';
+    }
   }
   cards.style.left = `${-1 * sliderIndex * 500}px`;
 }

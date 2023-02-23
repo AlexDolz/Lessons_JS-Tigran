@@ -62,7 +62,7 @@ body {
 .cards {
   position: absolute;
   display: flex;
-  transition: left 0.5s;
+  /* transition: left 0.5s; */
   left: 0;
 }
 
