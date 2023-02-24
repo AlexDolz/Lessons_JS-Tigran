@@ -19,3 +19,4 @@
 - [Lesson-14_15_02_events_event_target](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_14_15_02_events_event_target)
 - [Lesson-15_20_02_localStorage](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_15_20_02_localStorage)
 - [Lesson-16_22_02_DOM_slider](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_16_22_02_DOM_slider)
+- [Lesson-17_24_02_DOM_burger_menu](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_17_24_02_DOM_burger_menu)
