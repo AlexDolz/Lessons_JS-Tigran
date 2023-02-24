@@ -37,6 +37,7 @@ for (let elem of images) {
 frame.append(cards, triggers);
 rootDiv.append(frame);
 
+//FIXME ctob orange pokazivalo tozer pri pereklikucenije
 function goRight() {
   if (sliderIndex < images.length - 1) {
     sliderIndex++;
@@ -68,3 +69,27 @@ function goLeft() {
 
 rightBtn.addEventListener('click', goRight);
 leftBtn.addEventListener('click', goLeft);
+
+function createRounds() {
+  const roundsContainer = document.createElement('div');
+  roundsContainer.className = 'rounds';
+
+  for (let i = 0; i < images.length; i++) {
+    const btn = document.createElement('button');
+    roundsContainer.append(btn);
+
+    btn.addEventListener('click', () => {
+      sliderIndex = i;
+      cards.style.left = `${-1 * sliderIndex * 500}px`;
+      cards.style.transition = '0.5s';
+
+      const buttons = btn.parentElement.childNodes;
+      buttons.forEach(elem => elem.classList.remove('active'));
+
+      btn.classList.add('active');
+    });
+  }
+  frame.append(roundsContainer);
+}
+
+createRounds();
