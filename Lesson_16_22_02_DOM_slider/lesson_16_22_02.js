@@ -95,6 +95,9 @@ function createRounds() {
 
       btn.classList.add('active');
     });
+    if (i === 0) {
+      btn.classList.add('active');
+    }
   }
   frame.append(roundsContainer);
 }
