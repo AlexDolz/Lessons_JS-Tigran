@@ -21,3 +21,4 @@
 - [Lesson-16_22_02_DOM_slider](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_16_22_02_DOM_slider)
 - [Lesson-17_24_02_DOM_burger_menu](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/Lesson_17_24_02_DOM_burger_menu)
 - [Lesson-18_10_03_adaptive_slider](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/lesson_18_10_03_adaptive_slider)
+- [Lesson-19_10_03_autoscroll](https://github.com/AlexDolz/Lessons_JS-Tigran/tree/main/lesson_19_10_03_autoscroll)
